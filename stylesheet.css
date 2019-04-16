@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: '游ゴシック';
+}
+
+.container{
+  width: 100%;
+
+}
+
+.top-wrapper{
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-image: url(kazuend-25771-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.top-title{
+  display: block;
+  line-height: 600px;
+  font-size: 80px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  font-family: '游ゴシック';
+  color: white;
+  opacity: 0.7;
+  margin: 0 0;
+
+}
+
+.bio-wrapper{
+
+}
+
+.heading h2{
+  font-weight: normal;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  padding: 15px 0 10px 0;
+
+}
+
+.heading h2:before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
+  font-weight: bold;
+  margin-left: 1em;
+  margin-right: 0.2em;
+  color: #666699;
+}
+
+.heading h2:after{
+  content: "";
+	flex-grow: 1;
+	height: 2px;
+	background: #666699;
+	display: block;
+  margin-left: 0.5em;
+}
+
+.bio-items{
+  margin-bottom: 60px;
+}
+
+.bio-item{
+  display: flex;
+  padding-top: 10px;
+  font-family: '游ゴシック';
+}
+
+.bio-item IMG{
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 10px;
+  display: inline-block;
+
+}
+
+.bio-text{
+  display: inline-block;
+}
+
+.works-items{
+  width: 100%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.works-item{
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+
+.works-item IMG{
+    width: 50%
+}
+
+.works-item h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.works-text{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.clear{
+  clear: left;
+}
+
+.bio-item iframe{
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 10px;
+  display: inline-block;
+
+}
+.hob-items{
+  width: 100%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.hob-item{
+  display: inline-block;
+  width: 30%;
+  float: left;
+}
+.hob-item IMG{
+    width: 200px;
+    height: 200px;
+}
+.hob-text{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
